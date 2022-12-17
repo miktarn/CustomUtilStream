@@ -3,7 +3,7 @@ package com.tarnavskyi.mik.Spliterators;
 import java.util.Spliterator;
 import java.util.function.Consumer;
 
-public class ArraySpliterator<T> implements Spliterator {
+public class ArraySpliterator<T> implements Spliterator<T> {
 
     private T [] sourceArray;
     int count = 0;
