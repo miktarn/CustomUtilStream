@@ -1,11 +1,8 @@
-Обновил проект,
+Project of custom implementation java pipe stream
+
+Avaliable operations: peek, limit, skip
  
-Добавил промежуточных операций: peek, limit, skip
+List can be collected to Collection, Array or Map
+Spliterator implementation
 
-Почитал про collectors, теперь с моим стримом можно использовать любые collectors, даже toMap
-
-Сделал реализацию сплитератора которые будет пробегаться по любой коллекции
-
-Весь нериализованный функционал вынес в абстрактный клас NotImplemented
-
-Функцианал можно протестировать запустив DemoMain
+All functionality can be tested using DemoMain class
