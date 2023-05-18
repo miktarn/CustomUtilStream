@@ -1,3 +1,5 @@
+#CustomUtilStream
+
 Project of custom implementation java pipe stream
 
 Avaliable operations: peek, limit, skip
